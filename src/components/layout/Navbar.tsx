@@ -15,7 +15,7 @@ const NAV_LINKS = [
 ];
 
 export function Navbar() {
-  const [dark, setDark] = useState(true);
+  
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -25,10 +25,7 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    document.documentElement.classList.toggle("light", !dark);
-    document.documentElement.classList.toggle("dark", dark);
-  }, [dark]);
+  
 
   const handleNavClick = (href: string) => {
     setMobileOpen(false);
