@@ -101,13 +101,14 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    id: 1, 
+    id: 1,
     title: "Smart Database Assistant",
     emoji: "🗄️",
     description:
       "An AI-powered web app that lets anyone query, edit, and export databases using plain English — no SQL, Python, or formulas needed. Supports CSV, Excel, SQLite, and SQL dump files.",
-    techTags: ["Flask", "Python", "Gemini API", "SQLite"],
-    featureTags: [
+    categories: ["backend", "ai"],
+    tech: ["Flask", "Python", "Gemini API", "SQLite"],
+    features: [
       "Natural Language to SQL",
       "4 File Formats",
       "Auto SQL Correction",
@@ -115,19 +116,19 @@ export const PROJECTS = [
       "3 Export Formats",
       "50MB Upload",
     ],
-    category: "Backend",
+    gradient: "from-[#0f1a28] to-[#1a3a4d]",
     github: "https://github.com/Vansh3829/Smart-Database-Assistant",
     demo: "https://smart-database-assistant.onrender.com",
   },
   {
     id: 2,
     title: "AutoEasy – Car Rental Management System",
+    emoji: "🚗",
     description:
       "A comprehensive car rental platform with inventory management, booking system, demand analytics, and performance optimization built with Streamlit and MySQL.",
     categories: ["data", "backend"],
     tech: ["Python", "Streamlit", "MySQL", "Matplotlib"],
     features: ["Vehicle Inventory", "Customer Booking", "Demand Analytics", "CRUD Operations", "Performance Optimization"],
-    emoji: "🚗",
     gradient: "from-[#0f2818] to-[#1a4d2a]",
     github: "https://github.com/Vansh3829/AutoEasy-Car_rental_SQLite",
     demo: "https://autoeasy.streamlit.app/",
@@ -135,25 +136,25 @@ export const PROJECTS = [
   {
     id: 3,
     title: "Career Intelligence System",
+    emoji: "🎯",
     description:
       "An ML-powered career prediction engine analyzing 10K+ job market records to predict career paths, hiring probabilities, and salary growth with explainable AI recommendations.",
     categories: ["ml", "data"],
     tech: ["Python", "Scikit-Learn", "TF-IDF", "Machine Learning"],
     features: ["Career Prediction", "Hiring Probability", "Salary Forecast", "Explainable AI", "10K+ Records"],
-    emoji: "🎯",
     gradient: "from-[#1a0f28] to-[#2d1a4d]",
     github: "https://github.com/Vansh3829/career-intelligence-system",
     demo: "https://career-intelligence-system.streamlit.app/",
   },
-   {
+  {
     id: 4,
     title: "Personal Finance & Goal-Based Savings Tracker",
+    emoji: "💰",
     description:
       "A full-stack REST API system for personal finance management with goal tracking, transaction analytics, and dynamic filtering capabilities built with Flask and MySQL.",
     categories: ["backend", "data"],
     tech: ["Flask", "SQLAlchemy", "MySQL", "REST APIs"],
     features: ["10+ RESTful APIs", "Goal Management", "Transaction Tracking", "Analytics Dashboard", "Dynamic Filtering"],
-    emoji: "💰",
     gradient: "from-[#0f1628] to-[#1a2d5a]",
     github: "https://github.com/Vansh3829/Python-Based-Finance-System-Backend",
     demo: "https://python-based-finance-system-backend.onrender.com/",
