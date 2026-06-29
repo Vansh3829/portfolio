@@ -19,7 +19,7 @@ export function Projects() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.05 });
 
   const filtered = PROJECTS.filter(
-    (p) => activeFilter === "all" || p.categories.includes(activeFilter)
+  (p) => activeFilter === "all" || (p.categories ?? []).includes(activeFilter)
   );
 
   return (
