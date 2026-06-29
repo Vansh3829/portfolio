@@ -172,7 +172,7 @@ export const CERTIFICATIONS = [
 export const STATS = [
   { value: 100, suffix: "K+", label: "Records Processed" },
   { value: 10, suffix: "+", label: "APIs Developed" },
-  { value: 3, suffix: "", label: "Major Projects" },
+  { value: 4, suffix: "", label: "Major Projects" },
   { value: 6, suffix: "", label: "Certifications" },
 ];
 
