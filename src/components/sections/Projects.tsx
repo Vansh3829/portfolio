@@ -11,6 +11,7 @@ const FILTERS = [
   { id: "backend", label: "Backend" },
   { id: "data", label: "Data" },
   { id: "ml", label: "Machine Learning" },
+  { id: "ai", label: "AI" },
 ];
 
 export function Projects() {
