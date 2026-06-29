@@ -101,17 +101,23 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    id: 1,
-    title: "Personal Finance & Goal-Based Savings Tracker",
+    id: 1, 
+    title: "Smart Database Assistant",
+    emoji: "🗄️",
     description:
-      "A full-stack REST API system for personal finance management with goal tracking, transaction analytics, and dynamic filtering capabilities built with Flask and MySQL.",
-    categories: ["backend", "data"],
-    tech: ["Flask", "SQLAlchemy", "MySQL", "REST APIs"],
-    features: ["10+ RESTful APIs", "Goal Management", "Transaction Tracking", "Analytics Dashboard", "Dynamic Filtering"],
-    emoji: "💰",
-    gradient: "from-[#0f1628] to-[#1a2d5a]",
-    github: "https://github.com/Vansh3829/Python-Based-Finance-System-Backend",
-    demo: "https://python-based-finance-system-backend.onrender.com/",
+      "An AI-powered web app that lets anyone query, edit, and export databases using plain English — no SQL, Python, or formulas needed. Supports CSV, Excel, SQLite, and SQL dump files.",
+    techTags: ["Flask", "Python", "Gemini API", "SQLite"],
+    featureTags: [
+      "Natural Language to SQL",
+      "4 File Formats",
+      "Auto SQL Correction",
+      "Multi-turn Chat",
+      "3 Export Formats",
+      "50MB Upload",
+    ],
+    category: "Backend",
+    github: "https://github.com/Vansh3829/Smart-Database-Assistant",
+    demo: "https://smart-database-assistant.onrender.com",
   },
   {
     id: 2,
@@ -138,6 +144,19 @@ export const PROJECTS = [
     gradient: "from-[#1a0f28] to-[#2d1a4d]",
     github: "https://github.com/Vansh3829/career-intelligence-system",
     demo: "https://career-intelligence-system.streamlit.app/",
+  },
+   {
+    id: 4,
+    title: "Personal Finance & Goal-Based Savings Tracker",
+    description:
+      "A full-stack REST API system for personal finance management with goal tracking, transaction analytics, and dynamic filtering capabilities built with Flask and MySQL.",
+    categories: ["backend", "data"],
+    tech: ["Flask", "SQLAlchemy", "MySQL", "REST APIs"],
+    features: ["10+ RESTful APIs", "Goal Management", "Transaction Tracking", "Analytics Dashboard", "Dynamic Filtering"],
+    emoji: "💰",
+    gradient: "from-[#0f1628] to-[#1a2d5a]",
+    github: "https://github.com/Vansh3829/Python-Based-Finance-System-Backend",
+    demo: "https://python-based-finance-system-backend.onrender.com/",
   },
 ];
 
