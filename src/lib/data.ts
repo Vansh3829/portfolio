@@ -1,13 +1,13 @@
 export const PERSONAL = {
   name: "Vansh Singh",
   title: "Data Analyst | Data Engineer Aspirant | AI & ML Student",
-  tagline: "Transforming data into insights and building scalable backend solutions.",
+  tagline: "Building AI & Data-Driven Applications ",
   email: "itsvansh2005@gmail.com",
   github: "https://github.com/Vansh3829",
   linkedin: "https://www.linkedin.com/in/vansh3829/",
   location: "Delhi, India",
   available: true,
-  resumeUrl: "/Vansh_SD.pdf",
+  resumeUrl: "/Vansh_Resume.pdf",
 };
 
 export const ABOUT_TEXT = `Data-focused engineering student with strong fundamentals in Data Structures, backend development, Python, SQL, Machine Learning, and Data Analytics. Experienced in building REST APIs, processing large datasets (100K+  records), and developing scalable data-driven applications that solve real-world problems. Passionate about leveraging AI and data to drive meaningful decisions.`;
