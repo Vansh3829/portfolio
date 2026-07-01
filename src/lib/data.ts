@@ -87,14 +87,14 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     id: 1,
-    role: "Data Analyst Intern",
-    company: "Team Computers Pvt. Ltd.",
-    period: "June 2025 – July 2025",
+    role: "Student Trainee",
+    company: "Edunet Foundation",
+    period: "Feb 2025 – March 2025",
     highlights: [
-      "Analyzed datasets containing 100K+ records to extract actionable business insights",
+      "Developed practical skills in Python and SQL for data analysis, data manipulation, and database querying.",
       "Performed data cleaning and preprocessing pipelines using Python and SQL",
-      "Built visualizations and analytical reports using Pandas, NumPy, and Matplotlib",
-      "Assisted analytics team in data-driven decision making and strategy formulation",
+      "Solved real-world analytical problems and performed data-driven tasks involving data cleaning, processing, and interpretation.",
+      
     ],
   },
 ];
