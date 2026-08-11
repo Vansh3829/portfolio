@@ -52,7 +52,7 @@ export const SKILLS = [
     title: "Artificial Intelligence",
     icon: "🤖",
     gradient: "from-blue-500 to-indigo-600",
-    items: ["GenAI", "RAG", "LangGraph","VectorDB","ChromaDB"],
+    items: ["GenAI", "RAG", "LangGraph","VectorDB","ChromaDB","Embedding","Semantic Search"],
   },
   {
     id: "data",
@@ -74,7 +74,7 @@ export const SKILLS = [
     title: "Databases & Tools",
     icon: "🗄️",
     gradient: "from-rose-500 to-red-600",
-    items: ["MySQL", "Git", "GitHub"],
+    items: ["MySQL","VectorDB","ChromaDB", "Git", "GitHub"],
   },
   {
     id: "core",
