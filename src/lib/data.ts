@@ -45,7 +45,14 @@ export const SKILLS = [
     title: "Programming Languages",
     icon: "💻",
     gradient: "from-blue-500 to-indigo-600",
-    items: ["Python", "SQL", "C++", "Java"],
+    items: ["Python", "SQL", "C++"],
+  },
+  {
+    id: "Artificial Intelligence",
+    title: "Artificial Intelligence",
+    icon: "🤖",
+    gradient: "from-blue-500 to-indigo-600",
+    items: ["GenAI", "RAG", "LangGraph","VectorDB","ChromaDB"],
   },
   {
     id: "data",
@@ -61,13 +68,7 @@ export const SKILLS = [
     gradient: "from-purple-500 to-violet-600",
     items: ["Regression", "Classification", "Feature Engineering", "EDA", "Data Preprocessing", "Scikit-Learn"],
   },
-  {
-    id: "backend",
-    title: "Backend Development",
-    icon: "⚙️",
-    gradient: "from-amber-500 to-orange-600",
-    items: ["Flask", "REST APIs", "SQLAlchemy"],
-  },
+
   {
     id: "databases",
     title: "Databases & Tools",
@@ -122,17 +123,25 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "AutoEasy – Car Rental Management System",
-    emoji: "🚗",
+    title: "RAG Technical Documentation Assistant ",
+    emoji: "🗄️",
     description:
-      "A comprehensive car rental platform with inventory management, booking system, demand analytics, and performance optimization built with Streamlit and MySQL.",
-    categories: ["data", "backend"],
-    tech: ["Python", "Streamlit", "MySQL", "Matplotlib"],
-    features: ["Vehicle Inventory", "Customer Booking", "Demand Analytics", "CRUD Operations", "Performance Optimization"],
-    gradient: "from-[#0f2818] to-[#1a4d2a]",
-    github: "https://github.com/Vansh3829/AutoEasy-Car_rental_SQLite",
-    demo: "https://autoeasy.streamlit.app/",
+      "A self-corrective RAG system that answers technical documentation queries using semantic retrieval, query rewriting, and hallucination checking.",
+    categories: ["backend", "ai"],
+    tech: ["LangGraph", "FastAPI", "ChromaDB", "FastEmbed"],
+    features: [
+    "Semantic Retrieval",
+    "Document Chunking",
+    "Query Rewriting",
+    "Relevance Grading",
+    "Hallucination Checking",
+    "LLM Responses",
+    ],
+    gradient: "from-[#0f1a28] to-[#1a3a4d]",
+    github: "https://github.com/Vansh3829/RAG-Technical-Documentation-Assistant",
+    demo: "https://github.com/Vansh3829/RAG-Technical-Documentation-Assistant",
   },
+ 
   {
     id: 3,
     title: "Career Intelligence System",
@@ -146,19 +155,7 @@ export const PROJECTS = [
     github: "https://github.com/Vansh3829/career-intelligence-system",
     demo: "https://career-intelligence-system.streamlit.app/",
   },
-  {
-    id: 4,
-    title: "Personal Finance & Goal-Based Savings Tracker",
-    emoji: "💰",
-    description:
-      "A full-stack REST API system for personal finance management with goal tracking, transaction analytics, and dynamic filtering capabilities built with Flask and MySQL.",
-    categories: ["backend", "data"],
-    tech: ["Flask", "SQLAlchemy", "MySQL", "REST APIs"],
-    features: ["10+ RESTful APIs", "Goal Management", "Transaction Tracking", "Analytics Dashboard", "Dynamic Filtering"],
-    gradient: "from-[#0f1628] to-[#1a2d5a]",
-    github: "https://github.com/Vansh3829/Python-Based-Finance-System-Backend",
-    demo: "https://python-based-finance-system-backend.onrender.com/",
-  },
+  
 ];
 
 export const CERTIFICATIONS = [
