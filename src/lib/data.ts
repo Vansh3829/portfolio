@@ -21,7 +21,7 @@ export const EDUCATION = [
     degree: "Bachelor of Technology — CSE (AI & ML)",
     school: "Dronacharya College of Engineering",
     period: "2023 – 2027",
-    score: "CGPA: 7.9/10",
+    score: "CGPA: 8.0/10",
     icon: "🎓",
   },
   {
