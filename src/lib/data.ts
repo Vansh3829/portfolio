@@ -175,9 +175,5 @@ export const STATS = [
 ];
 
 export const TYPE_PHRASES = [
-  "Data Analyst",
-  "Data Engineer Aspirant",
-  "AI & ML Student",
-  "Python Developer",
-  "Backend Engineer",
+  "AI/ML Engineer"
 ];
