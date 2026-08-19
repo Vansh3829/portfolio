@@ -10,7 +10,10 @@ export const PERSONAL = {
   resumeUrl: "/Vansh_Resume.pdf",
 };
 
-export const ABOUT_TEXT = `Data-focused engineering student with strong fundamentals in Data Structures, backend development, Python, SQL, Machine Learning, and Data Analytics. Experienced in building REST APIs, processing large datasets (100K+  records), and developing scalable data-driven applications that solve real-world problems. Passionate about leveraging AI and data to drive meaningful decisions.`;
+export const ABOUT_TEXT = `Final-year CSE AL/ML student with hands-on experience in Python, SQL, Machine Learning, and Generative AI. Built AI-powered
+applications using LLMs, Retrieval-Augmented Generation (RAG), NLP, and REST APIs through academic projects. Experienced
+in data analysis, feature engineering, and developing end-to-end AI solutions using real-world datasets. Passionate about solving
+practical business problems through AI, machine learning, and data-driven applications.`;
 
 export const EDUCATION = [
   {
