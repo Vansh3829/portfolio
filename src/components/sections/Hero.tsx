@@ -61,7 +61,8 @@ export function Hero() {
         >
           <TypeAnimation
             sequence={[
-              "AI/ML Engineer", 2000,
+              "ML Engineer", 2000,
+              "AI Engineer", 2000,
               
             ]}
             wrapper="span"
