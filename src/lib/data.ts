@@ -1,6 +1,6 @@
 export const PERSONAL = {
   name: "Vansh Singh",
-  title: "Data Analyst | Data Engineer Aspirant | AI & ML Student",
+  title: "AI/ML Engineer",
   tagline: "Building AI & Data-Driven Applications ",
   email: "itsvansh2005@gmail.com",
   github: "https://github.com/Vansh3829",
