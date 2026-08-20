@@ -76,7 +76,7 @@ export function About() {
               {ABOUT_TEXT}
             </p>
             <p className="text-[var(--text-2)] text-[1.05rem] leading-[1.85] mb-6">
-              Currently pursuing B.Tech in CSE (AI & ML) at Dronacharya College of Engineering with a CGPA of 7.9/10. Backed by hands-on experience building AI & Data-Driven Applications.
+              Currently pursuing B.Tech in CSE (AI & ML) at Dronacharya College of Engineering with a CGPA of 8.0/10. Backed by hands-on experience building AI & Data-Driven Applications.
             </p>
 
             {/* Skill tags */}
