@@ -86,7 +86,7 @@ export function Contact() {
           >
             <h3 className="font-serif text-2xl mb-3 text-[var(--text)]">Open to Opportunities</h3>
             <p className="text-[var(--text-2)] mb-8 leading-relaxed">
-              Currently seeking Data Analyst, Data Engineer, and Backend Development roles. Whether you have a project in mind, want to collaborate, or just want to say hello — I&apos;d love to hear from you.
+             Currently seeking AI/ML and Data Science internship opportunities where I can apply my skills in Python, SQL, Machine Learning, NLP, RAG, and LLM-based applications. I’m always open to learning, collaborating on interesting projects, and connecting with people in the field.
             </p>
             <div className="flex flex-col gap-3">
               {CONTACT_LINKS.map((link) => (
